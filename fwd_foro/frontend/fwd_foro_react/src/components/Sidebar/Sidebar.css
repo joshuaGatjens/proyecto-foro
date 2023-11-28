@@ -1,0 +1,72 @@
+/* Frontend */
+.label-html{
+background-color: orange;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+.label-css{
+background-color: blue;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+.label-javascript{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 75px;
+    }
+
+.label-react{
+background-color: skyblue;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+.label-typescript{
+background-color: turquoise;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+/* Backend */
+
+.label-ruby{
+background-color: red;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+.label-mysql{
+background-color: darkorange;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+.label-docker{
+background-color: purple;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+.label-mongo{
+background-color: green;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}
+
+.label-rails{
+background-color: darkred;
+border: 1px solid black;
+width: 100px;
+height: 75px;
+}

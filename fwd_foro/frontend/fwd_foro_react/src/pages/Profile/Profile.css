@@ -1,0 +1,40 @@
+body {
+    background-image: url('../images/fwd-background2.png');
+    background-size: cover; /* o 'contain' dependiendo de tus necesidades */
+    background-repeat: no-repeat;
+    margin: 0; /* Asegúrate de que no haya márgenes que afecten el tamaño del cuerpo */
+    padding: 0; /* Evita el padding por defecto que pueda estar presente */
+};
+
+#basicInformation{
+    background-color: white;
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 15px;
+    }
+    
+    .bio-details{
+    background-color: white;
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    }
+    .profile-pic{
+        float: left;
+        border-radius: 50px;
+    }
+    .userName{
+        text-align: center;
+    }
+
+    .boxQ{
+        float: right;
+    background-color: white;
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    }

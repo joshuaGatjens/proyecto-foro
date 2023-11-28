@@ -1,0 +1,24 @@
+/* QuestionDetailPage.css */
+.question-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .question-details {
+    margin-bottom: 20px;
+  }
+  
+  .answers-and-comments {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .answers,
+  .comments {
+    width: 48%; /* Ajusta según tus necesidades */
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
