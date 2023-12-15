@@ -1,0 +1,8 @@
+
+[1mFrom:[0m /mnt/c/code/Foro/proyecto-foro/fwd_foro/app/controllers/users/sessions_controller.rb:7 Users::SessionsController#respond_with:
+
+    [1;34m5[0m: [32mdef[0m [1;34mrespond_with[0m(resource, _opts = {})
+    [1;34m6[0m: binding.pry
+ => [1;34m7[0m:   render [35mjson[0m: resource
+    [1;34m8[0m: [32mend[0m
+

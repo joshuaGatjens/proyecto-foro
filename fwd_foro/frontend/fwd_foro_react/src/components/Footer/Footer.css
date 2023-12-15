@@ -1,0 +1,49 @@
+/* Footer.css */
+
+footer {
+  margin-top: 150px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center; /* Center content horizontally */
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.column {
+  margin-right: 20px;
+  text-align: center; /* Center content within each column */
+}
+
+.column h3 {
+  color: #666;
+}
+
+.column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 5px;
+}
+
+.right {
+  text-align: right;
+}
+
+.right p {
+  margin: 0;
+}
+
+.footer-bottom {
+  margin-top: auto; /* Push to the bottom */
+}

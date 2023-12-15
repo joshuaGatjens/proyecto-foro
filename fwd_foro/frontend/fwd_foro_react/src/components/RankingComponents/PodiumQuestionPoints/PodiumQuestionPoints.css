@@ -1,0 +1,69 @@
+.podium-container {
+  display: flex;
+  background-image: url('');
+  /* background-color: rgba(192, 192, 192, 0.7); */
+  border-radius: 15px; 
+  padding: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+      display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+  
+  .podium-step {
+    width: 150px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 10px 5px; /* Ajusta el espacio entre los escalones (derecha, izquierda, abajo) */
+  }
+  
+  .podium-step-1 {
+    height: 120px;
+  }
+  
+  .podium-step-2 {
+    height: 90px;
+  }
+  
+  .podium-step-3 {
+    height: 60px;
+  }
+  
+  .gold {
+    background-color: #ffd700; /* Gold */
+  }
+  
+  .silver {
+    background-color: #c0c0c0; /* Silver */
+  }
+  
+  .bronze {
+    background-color: #cd7f32; /* Bronze */
+  }
+  
+  .podium-number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .podium-details {
+    margin-top: 10px;
+  }
+  
+  .podium-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .podium-points {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  

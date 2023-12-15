@@ -1,0 +1,308 @@
+/* AnswerList.css */
+
+/* .answer-list {
+  width: 100%;
+  margin: auto;
+} */
+
+.answer-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.answer-card {
+  position: relative; /* Añadido para posicionar el botón correctamente */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.answer-body {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.no-answers {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 20px;
+}
+
+.toggle-comments {
+  width: 30%;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  margin: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comments-section {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+.user-and-photo {
+  /* Estilo para la información del usuario */
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: large;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #343fdb;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.likes-funcions {
+  /* Estilo para la información del usuario */
+  display: flex;
+  align-items: center;
+}
+
+.answer-body {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.answer-body p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.answer-body a {
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 1px solid #007bff;
+  transition: border-bottom 0.3s ease;
+}
+
+.answer-body a:hover {
+  border-bottom: none;
+}
+
+.answer-body strong {
+  font-weight: bold;
+}
+
+.answer-body em {
+  font-style: italic;
+}
+
+.answer-body code {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f8f9fa;
+  padding: 2px 4px;
+  border: 1px solid #d1d3e2;
+  border-radius: 4px;
+}
+
+.answer-body pre {
+  margin: 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #d1d3e2;
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
+
+.answer-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.likes-functions {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-like {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-like:hover {
+  background-color: #45a049;
+}
+
+.like-count {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.resource-card {
+  position: relative; /* Añadido para posicionar el botón correctamente */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* En tu archivo AnswerList.css o donde tengas tus estilos */
+
+.resource-text {
+  text-align: center;
+  width: 80px;
+  display: flex;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  /* display: inline-block; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-direction: row;
+}
+.resource-text:hover {
+  background-color: #45a049;
+}
+
+/* Dentro del archivo AnswerList.css o tu archivo de estilos principal */
+
+.resource-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.resource-url {
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.resource-url:hover {
+  text-decoration: underline;
+}
+
+/* En tu archivo AnswerList.css */
+@media (max-width: 1000px) {
+  .hide-youtube {
+    display: none;
+  }
+}
+
+.delete-answer-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+button {
+ width: 150px;
+ height: 50px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+.noselect{
+ background: #e62222;
+  background: red;
+
+}
+button, button span {
+ transition: 200ms;
+}
+
+button .text {
+ transform: translateX(35px);
+ color: white;
+ font-weight: bold;
+}
+
+button .icon {
+ position: absolute;
+ border-left: 1px solid #c41b1b;
+ transform: translateX(110px);
+ height: 40px;
+ width: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+button svg {
+ width: 15px;
+ fill: #eee;
+}
+
+
+
+button:hover .text {
+ color: transparent;
+}
+
+button:hover .icon {
+ width: 150px;
+ border-left: none;
+ transform: translateX(0);
+}
+
+button:focus {
+ outline: none;
+}
+
+button:active .icon svg {
+ transform: scale(0.8);
+}
+
+.answer-card{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 0px rgba(30, 0, 255, 0.8);
+  background-color: rgb(126, 207, 251);
+  padding: 20px;
+  border-radius: 10px;
+}

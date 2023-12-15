@@ -1,0 +1,21 @@
+.add-answer-button{
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  /* Otros estilos según sea necesario */
+  .avatar-info-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor flex */
+  }
+  
+  .avatar-container {
+    /* Estilos para el avatar-container, si es necesario */
+  }
+  
+  .user-info {
+    margin-left: 10px; /* Ajusta el margen a tu preferencia para separar el avatar del nombre */
+  }
+  
+  /* Otros estilos según sea necesario */
+  

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-oembed-container": "^1.0.1",
+    "react-router5": "^8.0.1"
+  }
+}

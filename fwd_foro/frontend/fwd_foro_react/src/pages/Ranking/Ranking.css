@@ -1,0 +1,19 @@
+/* Estilos específicos para la página Ranking */
+
+/* Contenedor principal de la página Ranking */
+.ranking-container {
+    display: flex;
+    flex-direction: row-reverse; /* Cambia a row-reverse para tener la barra lateral a la derecha */
+  }
+  
+  /* Contenido principal del Ranking */
+  .ranking-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Estilo específico para .ranking-container que debería tener más prioridad */
+  body .ranking-container {
+    flex-direction: row-reverse;
+  }
+  

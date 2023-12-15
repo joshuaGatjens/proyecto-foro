@@ -1,0 +1,64 @@
+.sidebar {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.ranking-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.trophy-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.styled-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+  background-color: #45a049;
+}
+
+.likes-button {
+  background-color: #2196f3;
+}
+
+.likes-button:hover {
+  background-color: #0b7dda;
+}
+
+.more-button {
+  background-color: #ff9800;
+}
+
+.more-button:hover {
+  background-color: #e68a00;
+}

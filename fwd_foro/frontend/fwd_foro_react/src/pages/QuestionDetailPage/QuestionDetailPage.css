@@ -1,0 +1,202 @@
+/* QuestionDetailPage.css */
+.question-detail-container {
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.answers-and-comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.answers,
+.comments {
+  width: 48%; /* Ajusta según tus necesidades */
+}
+
+h1,
+h2 {
+  color: #333;
+}
+.btn-shape {
+  transition: all 0.3s linear;
+  width: 168px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  outline: none;
+  background-color: #020202;
+  border-radius: 50px;
+  border: 0px;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.btn-shape::after,
+.btn-shape::before {
+  content: "";
+  position: absolute;
+  background-color: #020202;
+  width: 100%;
+  opacity: 0;
+  height: 100%;
+  left: 0;
+  border-radius: 100px;
+  bottom: 0;
+  z-index: -2;
+  transition: all 0.3s linear;
+}
+
+.btn-shape span {
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.btn-shape:hover {
+  transform: translate(-12px, -12px);
+}
+
+.btn-shape:hover:after {
+  transform: translate(6px, 6px);
+  opacity: 0.5;
+}
+
+.btn-shape:hover::before {
+  transform: translate(12px, 12px);
+  opacity: 0.3;
+}
+
+.btn-shape:hover span {
+  animation: storm 0.4s linear both;
+}
+
+@keyframes storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+
+/* QuestionDetailPage.css */
+
+.question-details {
+  text-align: center;
+}
+
+.answers {
+  text-align: center;
+}
+
+.answer-list {
+  width: 70%; /* Ajusta el porcentaje según tus preferencias */
+  margin: 0 auto; /* Esto centrará el AnswerList */
+}
+
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1000;
+  text-align: center;
+}
+
+#button-close {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 1032;
+}
+/* QuestionDetailPage.css */
+
+.modal-container {
+  width: 100%; /* Ajusta según tus preferencias */
+  z-index: 1032;
+}
+
+.question-details {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center;  */
+}
+
+.add-answer-button-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajusta el espacio según tus preferencias */
+  text-align: center; /* Centra el botón horizontalmente */
+}
+
+/* ... Otros estilos que puedas tener ... */
+.btn1 {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0a60ff;
+  min-width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  opacity: 0.95;
+}
+
+.btn1 .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1),
+      0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1),
+      0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1),
+      0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+
+
+
+
